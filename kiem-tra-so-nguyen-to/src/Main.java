@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Moi nhap so");
         int number = sc.nextInt();
         boolean check = true;
-        for (int i = 1; i < number; i++) {
+        for (int i = 2; i < number; i++) {
             if (number % i == 0) {
                 check = false;
                 break;
